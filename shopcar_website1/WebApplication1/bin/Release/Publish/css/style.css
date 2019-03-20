@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+    font-family: Microsoft JhengHei, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.registertable {
+    margin-top: 30px;
+    margin-left: 30%;
+    position: relative;
+    width: 60%;
+    background: #d5d1d1;
+    border: 1px solid #b6b0b0;
+}
+
+.registertable_header {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.registertable_btn{
+    position:relative;
+    left:350px;
+    background:#b11a1a;
+    color:#808080;
+    width:100px;
+    height:30px;
+}
+
+.registertable_font {
+    margin-left: 20px;
+    color: #5e5858;
+    font-weight: 500;
+}
+
+.registertable_errorMsg {
+    margin-left: 20px;
+    color: #ff0000;
+    font-weight: 500;
+}
+
+.Msg_dialog {
+    background-color: #ffffff;
+    position: absolute;
+    top: 88%;
+    left: 45%;
+    border: 1.5px #808080 solid;
+    padding: 5px;
+    width: 170px;
+}
+
+.clearfix:after {
+    content: ""; /* 加入內容 */
+    visibility: hidden;
+    display: block; /* 以行方式呈現 */
+    height: 0;
+    clear: both;
+}
+
+.itemclass_bar{
+
+}
+
+.fontbold {
+    font-family: Microsoft JhengHei;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+}
+
+.fontitem_name {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #1920a8;
+}
+
+.inline{
+    display:inline;
+}
+
+.red {
+    color: #ff0000;
+}
+
+.org {
+    color: #eb560a;
+}
+
+.btn_model_1 {
+    width: 180px;
+    padding: 5px;
+    background: #b20d0d;
+    color: #ffffff;
+}
+
+.btn_model_2 {
+    width: 180px;
+    padding: 5px;
+    background: #ffffff;
+    color: #b20d0d;
+}
+
+#nav_bar {
+    background: #343030;
+    margin: 0;
+    height: 70px;
+    position: relative;
+    min-width: 987px;
+}
+
+#nav_container a {
+    font-size: 1em;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.An_pdt {
+    margin-top: 30px;
+}
+
+.An_item {
+    background-color: #ffffff;
+    position: relative;
+    margin: 0 auto;
+    width: 1000px;
+    min-width: 1000px;
+    height: 300px;
+    margin-top: 30px;
+}
+
+.An_item:after {
+    content: ""; /* 加入內容 */
+    visibility: hidden;
+    display: block; /* 以行方式呈現 */
+    height: 0;
+    clear: both;    
+}
+
+.header {
+    font-size: 1em;
+    color:#343030;  
+    padding:5px;
+    height:10%;
+}
+
+.item_img {
+    display: inline;
+    float: left;
+    margin-right: 10px;
+    height: 85%;
+}
+
+.item_info {
+    display: inline;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 85%;
+    width:250px;
+}
+
+.item_price{
+    display:inline;
+}
+
+.item_num {
+    float: left;
+    margin-right: 10px;
+    height: 85%;
+    width: 250px;
+}
+
+.item_num_check {
+    margin-right: 20px;
+}
+
+.item_num_check div {
+    padding: 10px;
+    border: 1px solid #808080;
+    position: relative;
+    float: left;
+}
+
+.a_change_item_count {
+    font-size: 1em;
+    color: #808080;
+    text-decoration: none;
+}
+
+.p_remove {
+    font-size: 1em;
+    color: #808080;
+    text-decoration: none;
+}
+
+.shopcar_info {
+    display: inline;
+    float: left;
+    margin-right: 10px;
+    height: 250px;
+    border-left: 1px solid #d8d3d3;
+    padding-left:20px;
+    position:relative;
+    left:20px;
+}
+
+.pdt_row {
+    margin-bottom: 50px;
+}
+
+.pdt {
+    display: inline-block;
+    border: solid 1px #d8d3d3;
+    margin-right: 30px;
+}
+
+.item_pdtname{
+    color:#1920a8;
+    font-weight:600;
+}
+
+.item_pdtprice {
+    color: #ff0000;
+    font-weight: 600;
+}
+

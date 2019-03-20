@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+此檔案由您的 Web 專案發佈/封裝處理序使用。您可以藉由編輯此 MSBuild 檔案，
+自訂此處理序的行為。若要深入了解，請前往 https://go.microsoft.com/fwlink/?LinkID=208121。 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\程式設計\c#範例與實作\c# 練習\ASP.net\asp.net 網站練習\WebApplication1\WebApplication1\bin\Release\Publish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="administrator/AdministratorPage.aspx">
+      <publishTime>10/07/2018 11:47:40</publishTime>
+    </File>
+    <File Include="bin/WebApplication1.dll">
+      <publishTime>02/10/2019 15:40:46</publishTime>
+    </File>
+    <File Include="bin/WebApplication1.pdb">
+      <publishTime>02/10/2019 15:40:46</publishTime>
+    </File>
+    <File Include="css/reset.css">
+      <publishTime>08/26/2018 16:52:00</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>02/07/2019 15:14:34</publishTime>
+    </File>
+    <File Include="item_page/AddtoShopcar.aspx">
+      <publishTime>12/22/2018 11:37:51</publishTime>
+    </File>
+    <File Include="item_page/beddingpage.aspx">
+      <publishTime>02/09/2019 11:21:05</publishTime>
+    </File>
+    <File Include="item_page/dailynecessity.aspx">
+      <publishTime>02/09/2019 11:24:10</publishTime>
+    </File>
+    <File Include="item_page/FurniturePage.aspx">
+      <publishTime>02/09/2019 11:23:17</publishTime>
+    </File>
+    <File Include="item_page/tablewarepage.aspx">
+      <publishTime>02/09/2019 11:23:02</publishTime>
+    </File>
+    <File Include="item_page/travelitempage.aspx">
+      <publishTime>02/09/2019 11:22:37</publishTime>
+    </File>
+    <File Include="js/jquery-2.1.4.min.js">
+      <publishTime>10/18/2015 17:31:14</publishTime>
+    </File>
+    <File Include="js/pdt_info.js">
+      <publishTime>02/06/2019 21:16:12</publishTime>
+    </File>
+    <File Include="js/script.js">
+      <publishTime>07/19/2018 21:12:26</publishTime>
+    </File>
+    <File Include="js/shopping_carlist.js">
+      <publishTime>02/06/2019 16:03:37</publishTime>
+    </File>
+    <File Include="membership/login.aspx">
+      <publishTime>02/07/2019 11:23:47</publishTime>
+    </File>
+    <File Include="membership/membership_ajax/GetuserShopcar.aspx">
+      <publishTime>01/28/2019 19:47:46</publishTime>
+    </File>
+    <File Include="membership/membership_ajax/remove_item.aspx">
+      <publishTime>01/29/2019 21:28:21</publishTime>
+    </File>
+    <File Include="membership/membership_ajax/Updatepdt_count.aspx">
+      <publishTime>01/29/2019 12:13:47</publishTime>
+    </File>
+    <File Include="membership/register.aspx">
+      <publishTime>02/08/2019 13:35:14</publishTime>
+    </File>
+    <File Include="membership/shopping_car.aspx">
+      <publishTime>02/07/2019 15:42:27</publishTime>
+    </File>
+    <File Include="membership/結帳.aspx">
+      <publishTime>10/07/2018 12:07:18</publishTime>
+    </File>
+    <File Include="membership/註冊成功.aspx">
+      <publishTime>10/13/2018 15:37:17</publishTime>
+    </File>
+    <File Include="test.aspx">
+      <publishTime>01/15/2019 14:10:43</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>02/10/2019 15:40:46</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

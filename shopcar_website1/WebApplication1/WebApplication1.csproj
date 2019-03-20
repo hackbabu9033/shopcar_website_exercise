@@ -1,0 +1,252 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{32DBE775-D1E8-41D3-9FB8-72A3E0C2376C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication1</RootNamespace>
+    <AssemblyName>WebApplication1</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="administrator\AdministratorPage.aspx" />
+    <Content Include="default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="item_page\AddtoShopcar.aspx" />
+    <Content Include="item_page\beddingpage.aspx" />
+    <Content Include="css\reset.css" />
+    <Content Include="css\style.css" />
+    <Content Include="item_page\dailynecessity.aspx" />
+    <Content Include="item_page\FurniturePage.aspx" />
+    <Content Include="item_page\travelitempage.aspx" />
+    <Content Include="js\jquery-2.1.4.min.js" />
+    <Content Include="js\script.js" />
+    <Content Include="js\shopping_carlist.js" />
+    <Content Include="js\pdt_info.js" />
+    <Content Include="membership\membership_ajax\GetuserShopcar.aspx" />
+    <Content Include="membership\login.aspx" />
+    <Content Include="membership\membership_ajax\Updatepdt_count.aspx" />
+    <Content Include="membership\register.aspx" />
+    <Content Include="item_page\tablewarepage.aspx" />
+    <Content Include="membership\membership_ajax\remove_item.aspx" />
+    <Content Include="membership\shopping_car.aspx" />
+    <Content Include="membership\結帳.aspx" />
+    <Content Include="membership\註冊成功.aspx" />
+    <Content Include="test.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="administrator\AdministratorPage.aspx.cs">
+      <DependentUpon>AdministratorPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="administrator\AdministratorPage.aspx.designer.cs">
+      <DependentUpon>AdministratorPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cs\item_info.cs" />
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalData.cs" />
+    <Compile Include="item_page\AddtoShopcar.aspx.cs">
+      <DependentUpon>AddtoShopcar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="item_page\AddtoShopcar.aspx.designer.cs">
+      <DependentUpon>AddtoShopcar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="item_page\beddingpage.aspx.cs">
+      <DependentUpon>beddingpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="item_page\beddingpage.aspx.designer.cs">
+      <DependentUpon>beddingpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="item_page\dailynecessity.aspx.cs">
+      <DependentUpon>dailynecessity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="item_page\dailynecessity.aspx.designer.cs">
+      <DependentUpon>dailynecessity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="item_page\FurniturePage.aspx.cs">
+      <DependentUpon>FurniturePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="item_page\FurniturePage.aspx.designer.cs">
+      <DependentUpon>FurniturePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cs\shopping_carlist.cs" />
+    <Compile Include="item_page\travelitempage.aspx.cs">
+      <DependentUpon>travelitempage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="item_page\travelitempage.aspx.designer.cs">
+      <DependentUpon>travelitempage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="membership\membership_ajax\GetuserShopcar.aspx.cs">
+      <DependentUpon>GetuserShopcar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="membership\membership_ajax\GetuserShopcar.aspx.designer.cs">
+      <DependentUpon>GetuserShopcar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="membership\login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="membership\login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="membership\membership_ajax\remove_item.aspx.cs">
+      <DependentUpon>remove_item.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="membership\membership_ajax\remove_item.aspx.designer.cs">
+      <DependentUpon>remove_item.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="membership\membership_ajax\Updatepdt_count.aspx.cs">
+      <DependentUpon>Updatepdt_count.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="membership\membership_ajax\Updatepdt_count.aspx.designer.cs">
+      <DependentUpon>Updatepdt_count.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="membership\shopping_car.aspx.cs">
+      <DependentUpon>shopping_car.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="membership\shopping_car.aspx.designer.cs">
+      <DependentUpon>shopping_car.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="membership\結帳.aspx.cs">
+      <DependentUpon>結帳.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="membership\結帳.aspx.designer.cs">
+      <DependentUpon>結帳.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="membership\註冊成功.aspx.cs">
+      <DependentUpon>註冊成功.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="membership\註冊成功.aspx.designer.cs">
+      <DependentUpon>註冊成功.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="membership\register.aspx.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="membership\register.aspx.designer.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="item_page\tablewarepage.aspx.cs">
+      <DependentUpon>tablewarepage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="item_page\tablewarepage.aspx.designer.cs">
+      <DependentUpon>tablewarepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="test.aspx.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="test.aspx.designer.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52068</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:52068/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

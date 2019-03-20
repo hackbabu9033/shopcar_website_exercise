@@ -1,0 +1,14 @@
+C:\程式設計\c#範例與實作\c# 練習\ASP.net\work_test\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+C:\程式設計\c#範例與實作\c# 練習\ASP.net\work_test\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\程式設計\c#範例與實作\c# 練習\ASP.net\work_test\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\程式設計\c#範例與實作\c# 練習\ASP.net\work_test\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojAssemblyReference.cache
+C:\程式設計\c#範例與實作\c# 練習\ASP.net\work_test\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+C:\程式設計\c#範例與實作\c# 練習\ASP.net\work_test\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\程式設計\c#範例與實作\c# 練習\ASP.net\work_test\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\程式設計\c#範例與實作\c# 練習\ASP.net\asp.net 網站練習\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+C:\程式設計\c#範例與實作\c# 練習\ASP.net\asp.net 網站練習\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\程式設計\c#範例與實作\c# 練習\ASP.net\asp.net 網站練習\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\程式設計\c#範例與實作\c# 練習\ASP.net\asp.net 網站練習\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+C:\程式設計\c#範例與實作\c# 練習\ASP.net\asp.net 網站練習\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\程式設計\c#範例與實作\c# 練習\ASP.net\asp.net 網站練習\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\程式設計\c#範例與實作\c# 練習\ASP.net\asp.net 網站練習\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojAssemblyReference.cache
