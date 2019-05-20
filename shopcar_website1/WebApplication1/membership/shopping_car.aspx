@@ -18,6 +18,7 @@
             obj_Shopcar_Objs.get_items_NameAndCount(items_number,items_count);
         }
 
+        //綁定離開頁面時，能將資料更新至後端
         window.onbeforeunload = function () {
             var websiteRootUrl = get_web_application_root_url();
             var Userid = getCookie("LoginInfo");                        
